@@ -50,11 +50,9 @@ while True:
         cv2.putText(img, f'QR missing', (25, 450), cv2.FONT_ITALIC, 1, (0, 0, 255), 2)
 
     cv2.imshow('Video', img)                                                    # display image in window
-    keyInterrupt = cv2.waitKey(1) & 0xFF                                       # wait for key interrupt
+    keyInterrupt = cv2.waitKey(1) & 0xFF                                        # wait for key interrupt
     if keyInterrupt == 27:                                                      # escape key
         break
 
 cam.release()
 cv2.destroyAllWindows()
-
-
