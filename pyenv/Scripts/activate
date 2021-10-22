@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\mttar\Documents\Projects\SIP_BCNHS\2021\Team_QR\pyenv"
+VIRTUAL_ENV="C:\Users\mttar\Documents\Projects\SIP_BCNHS\2021\QuaRanTeam\pyenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

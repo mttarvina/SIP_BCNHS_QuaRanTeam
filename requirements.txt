@@ -1,2 +1,5 @@
+colorama==0.4.4
 numpy==1.21.3
 opencv-contrib-python==4.5.4.58
+Pillow==8.4.0
+qrcode==7.3.1

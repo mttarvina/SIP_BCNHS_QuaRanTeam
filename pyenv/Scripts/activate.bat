@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\mttar\Documents\Projects\SIP_BCNHS\2021\Team_QR\pyenv
+set VIRTUAL_ENV=C:\Users\mttar\Documents\Projects\SIP_BCNHS\2021\QuaRanTeam\pyenv
 
 if not defined PROMPT set PROMPT=$P$G
 
