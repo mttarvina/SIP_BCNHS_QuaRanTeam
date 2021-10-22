@@ -1,4 +1,27 @@
 # ******************************************************************************
+#   Project: QuaRanScanner, SIP BCNHS 2021
+#
+#   Desc: <insert short description here>
+#   
+#   Team Members:
+#       1.
+#       2.
+#       3.
+#
+#   Adviser: 
+#       1. Phillip Raymund De Oca  
+#
+#   Code Author:
+#       1. Mark Angelo Tarvina (mttarvina@gmail.com)    - Consultant
+#       2.
+#
+#   Last Updated: 22.Oct.21 (~tarvs)
+# ******************************************************************************
+
+
+
+
+# ******************************************************************************
 # THIS CONTAINS ALL DEBUG CODES THAT NEED TO BE TESTED
 # ******************************************************************************
 
@@ -36,8 +59,8 @@ cam = cv2.VideoCapture(0, cv2.CAP_DSHOW)                                        
 fps = cam.get(cv2.CAP_PROP_FPS)                                                 # get native camera fps value
 print(f'FPS = {fps}')
 
-cam.set(3, 1280) # set frame width
-cam.set(4, 720) # set frame height
+cam.set(3, 1280)                                                                # set frame width
+cam.set(4, 720)                                                                 # set frame height
 
 qrDetector = cv2.QRCodeDetector()                                               # create an instance of QR code detector
 
